@@ -67,20 +67,6 @@ OPENAI_TTS_MODEL=tts-1                        # Use tts-1-hd for higher quality
 SAY_VOICE=Samantha                            # Run: say -v '?' to list voices
 ```
 
-## Audio Files
-
-API-based engines save `.mp3` files to `~/.agent-speak/audio/`:
-
-```
-~/.agent-speak/audio/2026-03-22_143022.mp3
-```
-
-## Requirements
-
-- `curl` and `jq` (for API-based TTS)
-- `afplay` (macOS) or `mpg123` (Linux) for audio playback
-- No dependencies for macOS `say` fallback
-
 ## License
 
 MIT
