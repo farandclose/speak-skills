@@ -5,7 +5,7 @@ Hear your AI agent's responses as natural spoken audio. Works with Claude Code, 
 ## Install
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/speak-skills.git
+git clone https://github.com/farandclose/speak-skills.git
 cd speak-skills
 bash install.sh
 ```
@@ -13,7 +13,7 @@ bash install.sh
 Or one-liner:
 
 ```bash
-curl -sL https://raw.githubusercontent.com/YOUR_USERNAME/speak-skills/main/install.sh | bash
+curl -sL https://raw.githubusercontent.com/farandclose/speak-skills/main/install.sh | bash
 ```
 
 The installer auto-detects Claude Code, Codex CLI, and installs to `~/.agents/skills/` for universal discovery.
