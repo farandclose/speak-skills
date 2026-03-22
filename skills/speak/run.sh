@@ -45,7 +45,7 @@ play_audio() {
 
 # --- ElevenLabs ---
 if [ -n "${ELEVENLABS_API_KEY:-}" ]; then
-  VOICE_ID="${ELEVENLABS_VOICE_ID:-21m00Tcm4TlvDq8ikWAM}"  # Rachel (default)
+  VOICE_ID="${ELEVENLABS_VOICE_ID:-EnjklPXGBMNldCJ7jqkE}"
   MODEL_ID="${ELEVENLABS_MODEL_ID:-eleven_flash_v2_5}"
 
   HTTP_CODE=$(curl -s -w "%{http_code}" \
