@@ -42,7 +42,10 @@ Hear it? (y)
 4. If the user responds with `y`, play the most recent `.mp3` from `~/.agent-speak/audio/`:
 
 ```bash
+# macOS
 afplay "$(ls -t ~/.agent-speak/audio/*.mp3 | head -1)"
+# Linux
+mpg123 "$(ls -t ~/.agent-speak/audio/*.mp3 | head -1)"
 ```
 
 5. If the user responds with anything else, continue the conversation normally — the audio is already saved if they want it later.

@@ -1,6 +1,6 @@
 ---
 name: speak
-description: Use when the user invokes /speak to hear the last Claude response as natural spoken audio via TTS
+description: Use when the user invokes /speak to hear the last response as natural spoken audio via TTS
 ---
 
 # Speak
