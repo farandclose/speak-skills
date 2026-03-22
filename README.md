@@ -75,15 +75,6 @@ API-based engines save `.mp3` files to `~/.agent-speak/audio/`:
 ~/.agent-speak/audio/2026-03-22_143022.mp3
 ```
 
-## Cost
-
-ElevenLabs charges per character (not per API call):
-
-| Model | Cost per 1K chars | Per narration (~750 chars) |
-|-------|-------------------|---------------------------|
-| `eleven_flash_v2_5` | ~$0.06–0.11 | ~$0.04–0.08 |
-| `eleven_multilingual_v2` | ~$0.12–0.22 | ~$0.09–0.17 |
-
 ## Requirements
 
 - `curl` and `jq` (for API-based TTS)
